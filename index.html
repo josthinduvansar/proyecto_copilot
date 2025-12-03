@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Técnico - Estructura de Datos: Grafos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>📊 Blog Técnico: Grafos</h1>
+            <p class="subtitle">Explorando la Estructura de Datos Fundamental en Informática</p>
+        </div>
+    </header>
+
+    <nav class="navbar">
+        <div class="container">
+            <ul class="nav-menu">
+                <li><a href="#home" onclick="loadHome()">Inicio</a></li>
+                <li><a href="#post1" onclick="loadPost('post1')">Post 1: Introducción</a></li>
+                <li><a href="#post2" onclick="loadPost('post2')">Post 2: Representación</a></li>
+                <li><a href="#post3" onclick="loadPost('post3')">Post 3: Algoritmos</a></li>
+                <li><a href="#about" onclick="loadAbout()">Acerca de</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <div id="content">
+            <!-- El contenido se cargará dinámicamente aquí -->
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Blog Técnico de Estructura de Datos. Todos los derechos reservados.</p>
+        <p>Controlado por Git • Hecho con ❤️ para Estructura de Datos 2</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
